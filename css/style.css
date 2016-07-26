@@ -13,6 +13,13 @@ html, body{
     font-size: 100%;
     background:url(../images/bg.jpg);
 }
+.personal_h3 {
+  text-align:center;
+  color:#104954;
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom:0.8em;
+}
 body a{
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
