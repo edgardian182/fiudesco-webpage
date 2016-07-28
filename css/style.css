@@ -730,8 +730,9 @@ ul.about_grid1.about_box {
 }
 ul.about_grid1 li.about_img {
 	float: left;
-	width:50.333%;
+	width:100%;
 	margin-right: 1.5em;
+  margin-bottom: 1.5em;
 }
 ul.about_grid1 li.about_desc {
 	float: none;
@@ -748,9 +749,10 @@ ul.about_grid1 li.about_desc h5 a {
 }
 p.first_desc, p.last{
 	color:#fff;
-	font-size: 0.85em;
+	font-size: 1.1em;
 	line-height: 1.5em;
 	margin-bottom: 2em;
+  text-align: justify;
 }
 p.last{
 	margin-bottom:0;
@@ -769,6 +771,8 @@ div.list.custom-list ul li {
 	margin: 30px 0 0 0;
 	padding: 0;
 	list-style: none;
+  font-size: 1.23em;
+  text-align: justify;
 }
 .dropcap {
 	text-align: left;
@@ -849,7 +853,7 @@ div.list.custom-list ul li p{
 	left: 0;
 	cursor: pointer;
 }
-.view img {
+.view {
    display: block;
    position: relative;
 }
