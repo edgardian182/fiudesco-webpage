@@ -21,6 +21,10 @@ html, body{
   margin-bottom:0.8em;
 }
 
+.content_logos {
+  background:#fff;
+  padding-bottom: 50px;
+}
 .aliados {
   margin-top: 70px;
   text-align: center;
