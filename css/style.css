@@ -20,6 +20,18 @@ html, body{
   font-weight: 700;
   margin-bottom:0.8em;
 }
+
+.aliados {
+  margin-top: 70px;
+  text-align: center;
+  word-spacing: 70px;
+}
+.aliados img {
+  height: 200px;
+}
+.img-milan {
+  width: 300px;
+}
 body a{
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
