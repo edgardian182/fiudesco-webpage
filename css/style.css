@@ -31,10 +31,14 @@ html, body{
   word-spacing: 70px;
 }
 .aliados img {
-  height: 200px;
+  height: 130px;
 }
 .img-milan {
-  width: 300px;
+  width: 200px;
+}
+
+#top_p {
+  font-size: 1em;
 }
 body a{
 	transition:0.5s all;
