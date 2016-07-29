@@ -12,7 +12,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!--webfont-->
-<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900' rel='stylesheet' type='text/css'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 <body>
   <!----- start-header---->
@@ -26,19 +28,27 @@
           <a href="index.html"><img src="images/logo-fiudesco.png" alt="" class="logo"></a>
 
         </div>
-        <div class="col-xs-8 col-sm-3">
-          <h2 class="slogan"><em>Caminos inteligentes a un desarrollo social</em> </h2>
+        <div class="col-xs-8 col-sm-4">
+          <h2 class="slogan"><em>Caminos inteligentes a un desarrollo social sostenible</em> </h2>
         </div>
 
-        <div class="col-xs-12 col-sm-7">
+        <div class="col-xs-12 col-sm-6">
           <div class="menu">
             <a class="toggleMenu" href="#"><img src="images/nav_icon.png" alt="" /> </a>
             <ul class="nav" id="nav">
-              <li><a href="index.html">Inicio</a></li>
-              <li><a href="about.html">¿Quienes somos?</a></li>
+              <li class="current"><a href="index.html">Inicio</a></li>
+
+              <li>
+                  <a class="dropdown-toggle" type="button" data-toggle="dropdown">¿Quienes somos?</a>
+                  <ul class="dropdown-menu text-center">
+                    <li><a href="about.html">Imágen Coorporativa</a></li>
+                    <li><a href="#" style="padding: 0 56px">Objetivos</a></li>
+                  </ul>
+              </li>
+
               <li><a href="portfolio.html">Portafolio</a></li>
               <li><a href="services.html">Memorias</a></li>
-              <li class="current"><a href="contact.html">Contacto</a></li>
+              <li><a href="contact.html">Contacto</a></li>
               <div class="clearfix"></div>
             </ul>
             <script type="text/javascript" src="js/responsive-nav.js"></script>
