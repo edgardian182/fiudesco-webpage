@@ -36,6 +36,10 @@ html, body{
 .img-milan {
   width: 200px;
 }
+.img-center {
+  margin: auto;
+  width: 100%;
+}
 
 #top_p {
   font-size: 1em;
@@ -322,12 +326,12 @@ ul.test_box {
 }
 ul.test_box li.test_img {
 	float: left;
-	width:24%;
+	width:35%;
 	margin-right:2em;
 }
 ul.test_box li.test_desc {
 	float: left;
-	width:71%;
+	width:60%;
 }
 ul.test_box li.test_desc h4 a {
 	font-size: 1.1em;
@@ -999,16 +1003,17 @@ blockquote p {
 	margin-top: 2em;
 }
 .contact_top h3 {
-	font-size: 1.5em;
+	font-size: 1.7em;  /* Original 1.5 */
 	font-weight: bold;
 	color:#104954;
 	margin-bottom: 1em;
 }
 .contact_top p {
-	font-size: 0.85em;
-	line-height: 1.8em;
-	color:#777;
+	font-size: 1em;
+	line-height: 1.7em;
+	color:#666;
 	margin: 1em 0 3em;
+  text-align: justify;
 }
 .contact-to input[type="text"] {
 	padding: 10px 10px;
