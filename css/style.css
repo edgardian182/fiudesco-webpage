@@ -82,7 +82,7 @@ body a{
 }
 .menu li a{
   	display: block;
-	font-size:1em;
+	font-size:0.96em; /* Origin 1 */
 	color:#787878;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
