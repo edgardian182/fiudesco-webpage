@@ -75,14 +75,14 @@
         <p>Puedes comunicarte con nosotros a través de uno de nuestros teléfonos, enviarnos un correo electrónico al email específicado, visitarnos o dejarnos tus datos con tu mensaje.</p>
         <div class="row">
           <div class="col-md-8">
-            <form method="post" action="contact-post.html">
+            <form method="post" action="formulario.php">
 				  	  <div class="contact-to">
-             	  <input type="text" class="text" value="Nombre..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name...';}">
-					  	  <input type="text" class="text" value="Email..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email...';}" style="margin-left: 10px">
-					   	  <input type="text" class="text" value="Asunto..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject...';}" style="margin-left: 10px">
+             	  <input type="text" class="text" value="Nombre..." name="nombre" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name...';}">
+					  	  <input type="text" class="text" value="Email..." name="email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email...';}" style="margin-left: 10px">
+					   	  <input type="text" class="text" value="Asunto..." name="asunto" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject...';}" style="margin-left: 10px">
 					    </div>
 					    <div class="text2">
-	              <textarea value="Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Mensaje..</textarea>
+	              <textarea value="Message:" name="mensaje" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Mensaje..</textarea>
 	            </div>
 	            <div class="contact_btn">
 	          	  <input name="submit" type="submit" id="submit" value="Enviar">
