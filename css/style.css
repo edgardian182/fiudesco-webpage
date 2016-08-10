@@ -21,6 +21,30 @@ html, body{
   margin-bottom:0.8em;
 }
 
+.personal_h3_2 {
+  text-align:;
+  color:#104954;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom:0.8em;
+}
+
+.personal_p {
+  color:#111;
+  font-size: 1.1em;
+  line-height: 1.5em;
+  margin-bottom: 2em;
+  text-align: justify;
+}
+
+#personal_p {
+  color:#111;
+  font-size: 1.1em;
+  line-height: 1.5em;
+  margin-bottom: 2em;
+  text-align: justify;
+}
+
 .content_logos {
   background:#fff;
   padding-bottom: 50px;
