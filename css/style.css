@@ -255,25 +255,30 @@ body a{
 	background:#6dc5dd;
 }
 i.flag{
-	width: 80px;
-	height: 80px;
+	width: 70px;
+	height: 70px;
 	background: url(../images/img-sprite.png)no-repeat -9px -6px;
+  /*background: url(../images/iconos1.jpeg)no-repeat -328px -140px;*/
 	float: left;
 	margin-right:1em;
+  border-radius: 50%;
 }
 i.camera{
 	width: 80px;
 	height: 80px;
-	background: url(../images/img-sprite.png)no-repeat -95px -6px;
+	/*background: url(../images/img-sprite.png)no-repeat -95px -6px;*/
+  background: url(../images/img-sprite.png)no-repeat -187px -6px;
 	float: left;
 	margin-right:1em;
 }
 i.home{
-	width: 80px;
-	height: 80px;
-	background: url(../images/img-sprite.png)no-repeat -187px -6px;
+	width: 70px;
+	height: 70px;
+  /*background: url(../images/iconos4.jpg)no-repeat -450px -480px; grande*/
+  background: url(../images/iconos1.jpeg)no-repeat -48px -250px;
 	float: left;
 	margin-right:1em;
+  border-radius: 50%;
 }
 .flag_desc h3{
 	margin-bottom:0.8em;
