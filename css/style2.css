@@ -124,7 +124,7 @@ body a{
 }
 .menu li a:hover ,.menu li.active a{
    color:#fff;
-   background:#d30824 !important;
+   background:#f3301e !important;
 }
 .toggleMenu {
 	display:  none;
@@ -252,7 +252,7 @@ body a{
 	font-size: 1.1em;
 	cursor: pointer;
 	border: none;
-	background: #d30824;
+	background: #f3301e;
 	color: #fff;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -314,7 +314,7 @@ i.home{
 }
 .flag_desc h3 a:hover{
 	text-decoration:none;
-	color:#d30824;
+	color:#f3301e;
 }
 div.flag_desc {
 	float: left;
@@ -340,7 +340,7 @@ div.flag_desc {
 }
 .link:hover{
 	text-decoration:none;
-	color: #d30824;
+	color: #f3301e;
 }
 .content_middle{
 	background:#fff;
@@ -369,7 +369,7 @@ ul.test_box li.test_desc h4 a {
 	text-decoration: none;
 }
 ul.test_box li.test_desc h4 a:hover {
-	color:#d30824;
+	color:#f3301e;
 }
 ul.test_box li.test_desc p {
 	color: #999;
@@ -382,7 +382,7 @@ ul.test_box li.test_desc p {
 	font-size: 1em;
 	cursor: pointer;
 	border: none;
-	background: #d30824;
+	background: #f3301e;
 	color: #fff;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -472,7 +472,7 @@ h2.resp-accordion {
 	font-size:1em;
 	margin: 0px;
 	padding: 10px 15px;
-	background:#d30824;
+	background:#f3301e;
 	margin:10px 0;
 	color:#fff;
 }
@@ -515,7 +515,7 @@ h2.resp-accordion {
 	font-size: 1.2em;
 }
 .facts h4 a:hover{
-	color: #d30824;
+	color: #f3301e;
 }
 .facts p{
 	color: #fff;
@@ -543,7 +543,7 @@ ul.tab_list li a:hover {
 .section_aligncenter{
 	text-align:center;
 	padding:4em 0;
-	background:#d30824;
+	background:#f3301e;
 }
 .section_aligncenter h3{
 	color: #fff;
@@ -633,7 +633,7 @@ ul.project_box li.desc p {
 	margin-bottom:2em;
 }
 span.comment{
-	color:#d30824;
+	color:#f3301e;
 	font-size:0.95em;
 }
 ul.comment_section{
@@ -660,7 +660,7 @@ i.comment {
 span.m_2 a{
 	font-size:1em;
 	font-weight:bold;
-	color:#d30824;
+	color:#f3301e;
 }
 /*--footer--*/
 .footer{
@@ -742,7 +742,7 @@ ul.social li a i.tw{
 }
 /*--about--*/
 h1.title-header {
-	background: #d30824;
+	background: #f3301e;
 	display: -webkit-inline-box;
 	color: #fff;
 	font-size: 1.5em;
@@ -1124,7 +1124,7 @@ i.msg{
 	cursor:pointer;
 }
 .contact_btn input[type="submit"]:hover{
-	background: #d30824;
+	background: #f3301e;
 	text-decoration:none;
 	color:#fff;
 }
