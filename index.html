@@ -7,7 +7,7 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery.min.js"></script>
 <!-- Custom Theme files -->
-<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' id="css1"/>
 <!-- Custom Theme files -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
@@ -32,6 +32,10 @@
                   fit: true   // 100% fit in a container
               });
           });
+
+          function styleChange() {
+            document.getElementById('css1').href = "css/style2.css"
+          }
   </script>
 
 </head>
@@ -204,7 +208,7 @@
 	 		  <h3>Contribuye con nuestro proyecto social</h3>
 	 		  <p>Entérate como puedes ser parte de nuestra comunidad y estar al tanto de todas nuestras actividades de forma directa, contribuir economicamente y más</p>
         <br>
-        <a href="#" class="btn btn-warning">Clic Aquí</a>
+        <a href="#" class="btn btn-warning" onclick="styleChange()">Clic Aquí</a>
      </div>
 
 
